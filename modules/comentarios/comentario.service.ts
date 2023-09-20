@@ -5,12 +5,6 @@ import { IComentario } from "./comentario.interface";
 
 export  const crearComentario = async (req: Request, res: Response) => {
     try {
-        // const comentarioRepository = await dbcontext.getRepository(Comentario)
-        // const nuevoComentario: IComentario = req.body;
-
-        // const comentario = await comentarioRepository.create(nuevoComentario);
-
-        // const result = await comentarioRepository.save(comentario)
 
         const comentarioRepository = await dbcontext.getRepository(Comentario);
 		const data: IComentario = req.body;
@@ -19,7 +13,7 @@ export  const crearComentario = async (req: Request, res: Response) => {
             comentario: data.comentario,
             noticia: { id: data.idNoticia }
 		});
-        
+        const saveComentario = await comentarioRepository.save(result)
         res.json({ msg: `Se creó el comentario`})
     } catch (error) {
         res.status(500).json({ msg: "No se pudo crear el comentario" });

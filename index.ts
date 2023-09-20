@@ -7,8 +7,9 @@ import comentariosRoutes from './modules/comentarios/comentario.routes';
 import { logMiddleware } from './modules/middleware/logMiddleware';
 import { TypeORMError } from 'typeorm';
 import logger from './modules/logger/logger';
+import dotenv from 'dotenv'
 
-
+dotenv.config()
 dbcontext
 	.initialize()
 	.then(() => {})
@@ -17,6 +18,8 @@ dbcontext
 	})
 
 const app: Express = express();
+const PORT = process.env.BLOG_PORT;
+
 //Middleware a nivel global
 app.use(logMiddleware)
 app.use(bodyParser.json());
@@ -28,5 +31,5 @@ app.use('/comentario', comentariosRoutes)
 
 
 app.listen(3000, () => {
-	logger.info(`⚡️ SERVER API IS RUNNING http://localhost:3000`);
+	logger.info(`⚡️ SERVER API IS RUNNING http://localhost:${PORT}`);
 });
