@@ -55,3 +55,100 @@
 2023-09-18 19:47:43 [debug]: El ip ::1 ingreso a /comentario
 2023-09-18 19:47:46 [debug]: El ip ::1 ingreso a /noticia/64a924ce-61e2-4a3a-8084-d7759b278050
 2023-09-19 21:01:37 [info]: ⚡️ SERVER API IS RUNNING http://localhost:3000
+2023-09-20 18:35:16 [info]: ⚡️ SERVER API IS RUNNING http://localhost:undefined
+2023-09-20 18:35:26 [debug]: El ip ::1 ingreso a /noticia
+2023-09-20 18:35:26 [debug]: El ip ::1 ingreso a /favicon.ico
+2023-09-20 18:35:27 [debug]: El ip ::1 ingreso a /images/icons/gear.png
+2023-09-20 18:38:10 [info]: ⚡️ SERVER API IS RUNNING http://localhost:undefined
+2023-09-20 18:43:03 [debug]: El ip ::1 ingreso a /noticia
+2023-09-20 18:43:03 [debug]: El ip ::1 ingreso a /images/icons/gear.png
+2023-09-20 18:44:44 [info]: ⚡️ SERVER API IS RUNNING http://localhost:undefined
+2023-09-20 18:45:51 [info]: ⚡️ SERVER API IS RUNNING http://localhost:undefined
+2023-09-20 18:45:57 [debug]: El ip ::1 ingreso a /noticia
+2023-09-20 18:45:57 [debug]: El ip ::1 ingreso a /images/icons/gear.png
+2023-09-20 18:46:27 [debug]: El ip ::1 ingreso a /noticia
+2023-09-20 18:46:27 [debug]: El ip ::1 ingreso a /images/icons/gear.png
+2023-09-20 18:46:36 [debug]: El ip ::1 ingreso a /noticia
+2023-09-20 18:46:36 [debug]: El ip ::1 ingreso a /images/icons/gear.png
+2023-09-20 18:46:36 [debug]: El ip ::1 ingreso a /favicon.ico
+2023-09-20 18:50:20 [debug]: El ip ::1 ingreso a /
+2023-09-20 18:50:44 [debug]: El ip ::1 ingreso a /noticia
+2023-09-20 18:52:29 [debug]: El ip ::1 ingreso a /noticia
+2023-09-20 18:53:35 [info]: ⚡️ SERVER API IS RUNNING http://localhost:undefined
+2023-09-20 18:53:38 [debug]: El ip ::1 ingreso a /noticia
+2023-09-20 19:02:41 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 19:04:02 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 19:04:54 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 19:07:10 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 19:08:16 [debug]: El ip ::1 ingreso a /noticia
+2023-09-20 19:08:22 [debug]: El ip ::1 ingreso a /noticia
+2023-09-20 19:08:47 [debug]: El ip ::1 ingreso a /
+2023-09-20 19:08:53 [debug]: El ip ::1 ingreso a /noticia
+2023-09-20 19:08:53 [debug]: El ip ::1 ingreso a /images/icons/gear.png
+2023-09-20 19:09:34 [debug]: El ip ::1 ingreso a /
+2023-09-20 19:09:38 [debug]: El ip ::1 ingreso a /noticia
+2023-09-20 19:10:05 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 19:10:08 [debug]: El ip ::1 ingreso a /noticia
+2023-09-20 19:10:37 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 19:10:39 [debug]: El ip ::1 ingreso a /noticia
+2023-09-20 19:12:15 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 19:12:21 [debug]: El ip ::1 ingreso a /noticia
+2023-09-20 19:12:56 [debug]: El ip ::1 ingreso a /noticia
+2023-09-20 19:14:02 [debug]: El ip ::1 ingreso a /noticia
+2023-09-20 19:18:18 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 19:20:32 [debug]: El ip ::1 ingreso a /noticia
+2023-09-20 19:22:26 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 19:39:38 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 19:39:38 [error]: Error al conectar con la Base de datos: SQLITE_CANTOPEN: unable to open database file
+2023-09-20 19:49:58 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 19:49:58 [error]: Error al conectar con la Base de datos: SQLITE_CANTOPEN: unable to open database file
+2023-09-20 19:52:03 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 19:52:03 [error]: Error al conectar con la Base de datos: SQLITE_CANTOPEN: unable to open database file
+2023-09-20 19:52:15 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 19:52:15 [error]: Error al conectar con la Base de datos: SQLITE_CANTOPEN: unable to open database file
+2023-09-20 19:55:36 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 19:55:36 [error]: Error al conectar con la Base de datos: SQLITE_CANTOPEN: unable to open database file
+2023-09-20 19:56:07 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 19:56:08 [error]: Error al conectar con la Base de datos: SQLITE_CANTOPEN: unable to open database file
+2023-09-20 19:58:56 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 19:58:56 [error]: Error al conectar con la Base de datos: SQLITE_CANTOPEN: unable to open database file
+2023-09-20 20:03:42 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 20:03:42 [error]: Error al conectar con la Base de datos: SQLITE_CANTOPEN: unable to open database file
+2023-09-20 20:04:10 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 20:04:10 [error]: Error al conectar con la Base de datos: SQLITE_CANTOPEN: unable to open database file
+2023-09-20 20:04:15 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 20:04:15 [error]: Error al conectar con la Base de datos: SQLITE_CANTOPEN: unable to open database file
+2023-09-20 20:04:46 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 20:04:46 [error]: Error al conectar con la Base de datos: SQLITE_CANTOPEN: unable to open database file
+2023-09-20 20:04:53 [debug]: El ip ::1 ingreso a /noticia
+2023-09-20 20:05:27 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 20:05:27 [error]: Error al conectar con la Base de datos: SQLITE_CANTOPEN: unable to open database file
+2023-09-20 20:12:48 [debug]: El ip ::1 ingreso a /noticia
+2023-09-20 20:20:27 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 20:20:32 [debug]: El ip ::1 ingreso a /
+2023-09-20 20:20:38 [debug]: El ip ::1 ingreso a /noticia
+2023-09-20 20:20:46 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 20:21:45 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 20:22:50 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 20:23:55 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 20:34:08 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 20:50:31 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 20:50:57 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 20:52:25 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 20:52:36 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 20:53:14 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 20:53:39 [debug]: El ip ::1 ingreso a /noticia
+2023-09-20 20:55:38 [debug]: El ip ::1 ingreso a /usuario
+2023-09-20 20:55:38 [error]: Fallo al crear el usuario QueryFailedError: SQLITE_ERROR: no such table: usuario
+2023-09-20 20:56:02 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 20:56:07 [debug]: El ip ::1 ingreso a /usuario
+2023-09-20 20:56:07 [error]: Fallo al crear el usuario QueryFailedError: SQLITE_ERROR: no such table: usuario
+2023-09-20 20:58:45 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 20:58:46 [debug]: El ip ::1 ingreso a /usuario
+2023-09-20 20:58:46 [error]: Fallo al crear el usuario QueryFailedError: SQLITE_ERROR: no such table: usuario
+2023-09-20 21:03:06 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 21:04:00 [debug]: El ip ::1 ingreso a /usuario
+2023-09-20 21:04:01 [error]: Fallo al crear el usuario QueryFailedError: SQLITE_ERROR: no such table: usuario
+2023-09-20 21:05:47 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-20 21:05:48 [debug]: El ip ::1 ingreso a /usuario
+2023-09-20 21:08:46 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
