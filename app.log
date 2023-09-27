@@ -152,3 +152,22 @@
 2023-09-20 21:05:47 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
 2023-09-20 21:05:48 [debug]: El ip ::1 ingreso a /usuario
 2023-09-20 21:08:46 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-25 19:28:24 [info]: ⚡️ SERVER API IS RUNNING http://localhost:3000
+2023-09-25 19:31:25 [debug]: El ip ::1 ingreso a /usuario
+2023-09-25 19:31:25 [error]: Fallo al crear el usuario QueryFailedError: SQLITE_CONSTRAINT: UNIQUE constraint failed: usuario.email
+2023-09-25 19:31:57 [debug]: El ip ::1 ingreso a /usuario
+2023-09-25 20:00:45 [info]: ⚡️ SERVER API IS RUNNING http://localhost:3000
+2023-09-27 16:40:41 [info]: ⚡️ SERVER API IS RUNNING http://localhost:3000
+2023-09-27 16:41:22 [debug]: El ip ::1 ingreso a /usuario
+2023-09-27 16:41:22 [error]: Fallo al crear el usuario QueryFailedError: SQLITE_CONSTRAINT: UNIQUE constraint failed: usuario.email
+2023-09-27 16:41:25 [debug]: El ip ::1 ingreso a /usuario
+2023-09-27 16:41:25 [error]: Fallo al crear el usuario QueryFailedError: SQLITE_CONSTRAINT: UNIQUE constraint failed: usuario.email
+2023-09-27 16:42:13 [info]: ⚡️ SERVER API IS RUNNING http://localhost:3000
+2023-09-27 16:42:22 [info]: ⚡️ SERVER API IS RUNNING http://localhost:3000
+2023-09-27 16:42:25 [debug]: El ip ::1 ingreso a /usuario
+2023-09-27 16:42:25 [error]: Fallo al crear el usuario QueryFailedError: SQLITE_CONSTRAINT: UNIQUE constraint failed: usuario.email
+2023-09-27 16:42:47 [debug]: El ip ::1 ingreso a /usuario
+2023-09-27 16:42:57 [info]: ⚡️ SERVER API IS RUNNING http://localhost:3000
+2023-09-27 16:43:06 [debug]: El ip ::1 ingreso a /usuario
+2023-09-27 16:43:35 [debug]: El ip ::1 ingreso a /usuario
+2023-09-27 16:43:43 [info]: ⚡️ SERVER API IS RUNNING http://localhost:3000

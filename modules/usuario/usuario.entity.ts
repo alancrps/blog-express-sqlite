@@ -1,4 +1,5 @@
-import { Column, CreateDateColumn, Entity, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
+import { BeforeInsert, Column, CreateDateColumn, Entity, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
+import bcrypt from "bcrypt";
 
 @Entity()
 export class Usuario{
@@ -22,4 +23,14 @@ export class Usuario{
 
     @Column({unique: true})
     email: string;
-}
+
+    @BeforeInsert()
+    async hashPassword() {
+        this.password = await bcrypt.hash(this.password, 10)
+    }
+
+    @BeforeInsert()
+    async emailToLowerCase(){
+        this.email = this.email.toLowerCase();
+    }
+}   

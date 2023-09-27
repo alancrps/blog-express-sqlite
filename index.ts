@@ -8,7 +8,9 @@ import { logMiddleware } from './modules/middleware/logMiddleware';
 import { TypeORMError } from 'typeorm';
 import logger from './modules/logger/logger';
 import dotenv from 'dotenv'
-import usuarioRoutes from './modules/usuario/usuario.routes';
+
+import { authRoutes } from './modules/auth/auth.routes';
+import { usuarioRoutes } from './modules/usuario/usuario.routes';
 
 dotenv.config()
 dbcontext
@@ -31,6 +33,8 @@ app.use('/noticia', noticiasRoutes)
 app.use('/comentario', comentariosRoutes)
 
 app.use('/usuario', usuarioRoutes)
+
+app.use('/auth', authRoutes);
 
 app.listen(1000, () => {
 	logger.info(`⚡️ SERVER API IS RUNNING http://localhost:${PORT}`);
