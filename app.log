@@ -285,3 +285,8 @@
 2023-10-02 20:36:42 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
 2023-10-02 20:36:48 [debug]: El ip ::1 ingreso a /noticia/
 2023-10-02 20:36:48 [debug]: 78d058b3-0a9f-44c4-b0bf-aa374cd8783f
+2023-10-04 19:06:47 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-04 19:07:05 [debug]: El ip ::1 ingreso a /auth/login
+2023-10-04 19:07:05 [debug]: DefaultPassword
+2023-10-04 19:07:13 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-04 19:07:13 [debug]: {"usuario":{"id":"78d058b3-0a9f-44c4-b0bf-aa374cd8783f","nombre":"alan32","apellido":"corpuss","email":"alan10@gmail.com"},"iat":1696457225,"exp":1696464425}

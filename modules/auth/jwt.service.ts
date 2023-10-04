@@ -9,7 +9,3 @@ export const generarTokenJWT = (payload: object): string => {
 	logger.debug(secret)
 	return token;
 };	
-
-// export const verificarToken = (token:string): token => {
-
-// }

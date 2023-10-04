@@ -16,7 +16,7 @@ export const verifyTokenMiddleware = (req: Request, res: Response, next: NextFun
             logger.debug(secret)
             return res.status(401).json({msg: 'Token no valido'});
         }
-        logger.debug(decoded.id_usuario)
+        logger.debug(JSON.stringify(decoded))
         next()
     })
 }
