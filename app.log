@@ -171,3 +171,117 @@
 2023-09-27 16:43:06 [debug]: El ip ::1 ingreso a /usuario
 2023-09-27 16:43:35 [debug]: El ip ::1 ingreso a /usuario
 2023-09-27 16:43:43 [info]: ⚡️ SERVER API IS RUNNING http://localhost:3000
+2023-09-27 20:01:49 [info]: ⚡️ SERVER API IS RUNNING http://localhost:3000
+2023-09-27 20:02:14 [debug]: El ip ::1 ingreso a /usuario
+2023-09-27 20:02:26 [info]: ⚡️ SERVER API IS RUNNING http://localhost:3000
+2023-09-27 20:03:11 [info]: ⚡️ SERVER API IS RUNNING http://localhost:3000
+2023-09-27 20:03:41 [info]: ⚡️ SERVER API IS RUNNING http://localhost:3000
+2023-09-27 20:03:45 [debug]: El ip ::1 ingreso a /auth
+2023-09-27 20:05:29 [debug]: El ip ::1 ingreso a /auth
+2023-09-27 20:05:46 [info]: ⚡️ SERVER API IS RUNNING http://localhost:3000
+2023-09-27 20:06:00 [info]: ⚡️ SERVER API IS RUNNING http://localhost:3000
+2023-09-27 20:06:43 [debug]: El ip ::1 ingreso a /auth
+2023-09-27 20:09:17 [debug]: El ip ::1 ingreso a /auth
+2023-09-27 20:09:25 [debug]: El ip ::1 ingreso a /auth
+2023-09-27 20:09:39 [debug]: El ip ::1 ingreso a /auth
+2023-09-27 20:10:10 [debug]: El ip ::1 ingreso a /auth
+2023-09-27 20:11:31 [debug]: El ip ::1 ingreso a /auth/login
+2023-09-27 20:11:31 [error]: Usuario/contraseña incorrecto
+2023-09-27 20:12:40 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-27 20:12:42 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-27 20:12:47 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-27 20:12:47 [debug]: El ip ::1 ingreso a /auth
+2023-09-27 20:12:53 [debug]: El ip ::1 ingreso a /auth/login
+2023-09-27 20:12:53 [error]: Usuario/contraseña incorrecto
+2023-09-27 20:13:45 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-27 20:13:52 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-27 20:14:06 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-27 20:14:25 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-27 20:14:44 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-27 20:15:59 [debug]: El ip ::1 ingreso a /auth
+2023-09-27 20:17:17 [debug]: El ip ::1 ingreso a /usuario
+2023-09-27 20:17:19 [debug]: El ip ::1 ingreso a /auth
+2023-09-27 20:17:33 [debug]: El ip ::1 ingreso a /auth/login
+2023-09-27 20:17:34 [debug]: DefaultPassword
+2023-09-27 20:22:32 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-27 20:22:36 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-27 20:22:41 [debug]: El ip ::1 ingreso a /auth/login
+2023-09-27 20:22:41 [debug]: DefaultPassword
+2023-09-27 20:23:25 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-27 20:43:04 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-09-27 20:43:39 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-02 18:50:02 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-02 18:50:18 [debug]: El ip ::1 ingreso a /auth/login
+2023-10-02 19:29:32 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-02 19:30:27 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-02 19:30:33 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-02 19:32:25 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-02 19:33:20 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-02 19:33:44 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-02 19:34:00 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-02 19:39:06 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 19:39:06 [error]: invalid token
+2023-10-02 19:39:12 [debug]: El ip ::1 ingreso a /auth/login
+2023-10-02 19:39:23 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 19:39:23 [error]: invalid token
+2023-10-02 19:39:44 [debug]: El ip ::1 ingreso a /auth/login
+2023-10-02 19:40:04 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 19:40:04 [error]: invalid token
+2023-10-02 19:40:42 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 19:40:42 [error]: invalid token
+2023-10-02 19:42:32 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 19:42:32 [error]: invalid token
+2023-10-02 19:44:22 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 19:45:21 [debug]: El ip ::1 ingreso a /auth/login
+2023-10-02 19:45:34 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 19:45:34 [error]: invalid token
+2023-10-02 19:45:42 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 19:47:56 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-02 19:48:06 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 19:48:06 [error]: invalid token
+2023-10-02 19:58:22 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-02 19:58:23 [debug]: El ip ::1 ingreso a /auth/login
+2023-10-02 19:58:30 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 19:58:30 [error]: invalid token
+2023-10-02 19:59:51 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-02 19:59:53 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 19:59:53 [error]: invalid token
+2023-10-02 20:02:20 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 20:02:20 [error]: invalid token
+2023-10-02 20:02:25 [debug]: El ip ::1 ingreso a /auth/login
+2023-10-02 20:02:33 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 20:02:33 [error]: invalid token
+2023-10-02 20:02:35 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 20:02:35 [error]: invalid token
+2023-10-02 20:03:50 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-02 20:03:51 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 20:03:51 [error]: invalid token
+2023-10-02 20:03:53 [debug]: El ip ::1 ingreso a /auth/login
+2023-10-02 20:04:01 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 20:04:01 [error]: invalid token
+2023-10-02 20:10:37 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-02 20:10:43 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 20:10:45 [debug]: El ip ::1 ingreso a /auth/login
+2023-10-02 20:10:47 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 20:10:47 [error]: invalid token
+2023-10-02 20:11:04 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 20:11:04 [error]: invalid token
+2023-10-02 20:13:01 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-02 20:13:04 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 20:13:04 [error]: invalid token
+2023-10-02 20:16:37 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-02 20:26:41 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-02 20:27:26 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 20:27:26 [error]: invalid token
+2023-10-02 20:27:28 [debug]: El ip ::1 ingreso a /auth/login
+2023-10-02 20:27:35 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 20:27:35 [error]: invalid token
+2023-10-02 20:32:17 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-02 20:34:41 [debug]: El ip ::1 ingreso a /auth/login
+2023-10-02 20:34:50 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 20:34:50 [error]: invalid token
+2023-10-02 20:36:00 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-02 20:36:26 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-02 20:36:42 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-02 20:36:48 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-02 20:36:48 [debug]: 78d058b3-0a9f-44c4-b0bf-aa374cd8783f

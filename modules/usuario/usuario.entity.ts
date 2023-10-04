@@ -1,5 +1,6 @@
-import { BeforeInsert, Column, CreateDateColumn, Entity, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
+import { BeforeInsert, Column, CreateDateColumn, Entity, OneToMany, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
 import bcrypt from "bcrypt";
+import { Noticia } from "../noticias/noticia.entity";
 
 @Entity()
 export class Usuario{
@@ -24,6 +25,9 @@ export class Usuario{
     @Column({unique: true})
     email: string;
 
+    @OneToMany(() => Noticia, (n) => n.usuario)
+    noticias: Noticia[]
+    
     @BeforeInsert()
     async hashPassword() {
         this.password = await bcrypt.hash(this.password, 10)

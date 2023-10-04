@@ -1,6 +1,7 @@
 
-import { Column, CreateDateColumn, Entity, OneToMany, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
+import { Column, CreateDateColumn, Entity, ManyToOne, OneToMany, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
 import { Comentario } from "../comentarios/comentario.entity";
+import { Usuario } from "../usuario/usuario.entity";
 
 @Entity()
 export class Noticia {
@@ -21,4 +22,7 @@ export class Noticia {
 
     @OneToMany(() => Comentario, (c) => c.noticia)
     comentarios: Comentario[]
+
+    @ManyToOne(() => Usuario, (u) => u.noticias)
+    usuario: Usuario;
 }

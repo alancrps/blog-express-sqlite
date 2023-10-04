@@ -4,6 +4,7 @@ import { Usuario } from "../usuario/usuario.entity";
 import { Ilogin } from "./auth.interface";
 import bcrypt from 'bcrypt';
 import logger from "../logger/logger";
+import { generarTokenJWT } from "./jwt.service";
 
 export const login = async (req:Request, res: Response) => {
     try{
@@ -25,10 +26,29 @@ export const login = async (req:Request, res: Response) => {
             dataRequest.password,
             buscarUsuario.password
         )
-        res.json({msg:`El resultado del login fue: ${compararPass}`})
+        
+        if(!compararPass){
+            throw new Error()
+        }
+
+        //Genero token
+        const payload = {
+            id_usuario: buscarUsuario.id,
+            nombre: buscarUsuario.nombre,
+            apellido: buscarUsuario.apellido,
+            email: buscarUsuario.email
+        }
+
+        const token = generarTokenJWT(payload)
+
+        res.json({
+            token: token
+        })
     }
     catch (error) {
-        logger.error('Usuario/contraseña incorrecto')
-        throw new Error('Usuario/contraseña incorrecto')
+        logger.error(error)
+        res.status(401).json({
+            msg: 'usuario/contraseña incorrecto'
+        })
     }
 }
