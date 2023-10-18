@@ -12,7 +12,7 @@ export class Noticia {
     titulo: string;
     
     @Column()
-    contenido: string
+    contenido: string;
     
     @CreateDateColumn()
 	create_at: Date;
@@ -23,6 +23,6 @@ export class Noticia {
     @OneToMany(() => Comentario, (c) => c.noticia)
     comentarios: Comentario[]
 
-    @ManyToOne(() => Usuario, (u) => u.noticias)
+    @ManyToOne(() => Usuario, (u) => u.noticias, { nullable:false })
     usuario: Usuario;
 }

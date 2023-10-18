@@ -290,3 +290,87 @@
 2023-10-04 19:07:05 [debug]: DefaultPassword
 2023-10-04 19:07:13 [debug]: El ip ::1 ingreso a /noticia/
 2023-10-04 19:07:13 [debug]: {"usuario":{"id":"78d058b3-0a9f-44c4-b0bf-aa374cd8783f","nombre":"alan32","apellido":"corpuss","email":"alan10@gmail.com"},"iat":1696457225,"exp":1696464425}
+2023-10-04 20:01:17 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-04 20:03:05 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-04 20:04:02 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-04 20:05:25 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-04 20:07:25 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-04 20:09:04 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-04 20:09:29 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-04 20:10:10 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-04 20:13:29 [debug]: El ip ::1 ingreso a /auth/login
+2023-10-04 20:13:30 [debug]: DefaultPassword
+2023-10-04 20:13:36 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-04 20:13:36 [debug]: El usuario con nombre : alan32 corpuss creo la noticia {"titulo":"Test12","contenido":"asd1234"}
+2023-10-04 20:15:44 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-04 20:21:36 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-04 20:23:42 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-10 19:04:05 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-10 19:04:09 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-10 19:04:16 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-10 19:04:16 [error]: jwt expired
+2023-10-10 19:04:16 [debug]: DefaultPassword
+2023-10-10 19:04:29 [debug]: El ip ::1 ingreso a /auth/login
+2023-10-10 19:04:42 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-10 19:04:42 [debug]: El usuario con nombre : alan32 corpuss creo la noticia {"titulo":"Test12","contenido":"asd1234"}
+2023-10-10 19:04:50 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-11 19:25:13 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-11 19:25:23 [error]: Error al conectar con la Base de datos: connect ETIMEDOUT
+2023-10-11 19:29:18 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-11 19:29:18 [error]: Error al conectar con la Base de datos: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'172.17.0.1' (using password: YES)
+2023-10-11 19:29:31 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-11 19:29:31 [error]: Error al conectar con la Base de datos: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'172.17.0.1' (using password: YES)
+2023-10-11 19:30:06 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-11 19:30:06 [error]: Error al conectar con la Base de datos: ER_BAD_DB_ERROR: Unknown database 'blog-express-mariadb'
+2023-10-11 19:31:03 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-11 19:31:03 [error]: Error al conectar con la Base de datos: ER_BAD_DB_ERROR: Unknown database 'blog-db'
+2023-10-11 19:31:07 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-11 19:31:07 [error]: Error al conectar con la Base de datos: ER_BAD_DB_ERROR: Unknown database 'blog-express-mariadb'
+2023-10-11 19:31:13 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-11 19:31:13 [error]: Error al conectar con la Base de datos: ER_BAD_DB_ERROR: Unknown database 'unnamed-1'
+2023-10-11 19:31:18 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-11 19:31:18 [error]: Error al conectar con la Base de datos: ER_BAD_DB_ERROR: Unknown database 'blog-express-mariadb'
+2023-10-11 19:31:42 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-11 19:31:42 [error]: Error al conectar con la Base de datos: ER_BAD_DB_ERROR: Unknown database 'blog-express-mariadb'
+2023-10-11 19:31:49 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-11 19:31:49 [error]: Error al conectar con la Base de datos: ER_BAD_DB_ERROR: Unknown database 'blog-express-mariadb'
+2023-10-11 19:33:04 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-11 19:33:04 [error]: Error al conectar con la Base de datos: ER_BAD_DB_ERROR: Unknown database 'blog'
+2023-10-11 19:33:34 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-11 19:33:41 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-11 19:53:21 [debug]: El ip ::1 ingreso a /auth/login
+2023-10-11 19:53:21 [error]: Usuario/contraseña incorrecto
+2023-10-11 19:54:18 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-11 19:54:30 [debug]: El ip ::1 ingreso a /usuario
+2023-10-11 19:54:41 [debug]: El ip ::1 ingreso a /auth/login
+2023-10-11 19:55:02 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-11 19:55:02 [debug]: El usuario con nombre : alan corpus creo la noticia {"titulo":"Test12","contenido":"asd1234"}
+2023-10-11 19:55:05 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-11 19:56:21 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-11 19:59:56 [debug]: El ip ::1 ingreso a /comentario
+2023-10-11 19:59:59 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-11 20:01:49 [debug]: El ip ::1 ingreso a /noticia/70f96583-04a3-4338-91f1-667dc4b80a28
+2023-10-18 18:59:59 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-18 19:21:51 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-18 19:22:16 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-18 19:22:55 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-18 19:23:44 [debug]: El ip ::1 ingreso a /noticia/70f96583-04a3-4338-91f1-667dc4b80a28
+2023-10-18 19:23:44 [error]: No se puede obtener la noticia con id: 70f96583-04a3-4338-91f1-667dc4b80a28 desde la ip ::1
+2023-10-18 19:24:54 [debug]: El ip ::1 ingreso a /usuario
+2023-10-18 19:25:02 [debug]: El ip ::1 ingreso a /auth/login
+2023-10-18 19:25:25 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-18 19:25:25 [debug]: El usuario con nombre : alan corpus creo la noticia {"titulo":"Test12","contenido":"asd1234"}
+2023-10-18 19:25:28 [debug]: El ip ::1 ingreso a /noticia/
+2023-10-18 19:26:27 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-18 19:26:39 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-18 19:26:49 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-18 19:27:01 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-18 19:28:57 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-18 19:29:44 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-18 19:29:57 [debug]: El ip ::1 ingreso a /noticia/buscar?titulo=test
+2023-10-18 19:29:57 [error]: No se puede obtener la noticia con id: buscar desde la ip ::1
+2023-10-18 19:32:37 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-18 19:32:46 [debug]: El ip ::1 ingreso a /noticia/titulo/buscar?titulo=test
+2023-10-18 19:32:58 [debug]: El ip ::1 ingreso a /noticia/titulo/buscar?titulo=Test12
+2023-10-18 19:33:25 [info]: ⚡️ SERVER API IS RUNNING http://localhost:1000
+2023-10-18 19:33:29 [debug]: El ip ::1 ingreso a /noticia/titulo/buscar?titulo=Test12

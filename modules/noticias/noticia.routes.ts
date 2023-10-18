@@ -1,5 +1,5 @@
 import express from 'express';
-import {  actualizarNoticia, borrarNoticia, crearNoticia, listarNoticia, obtenerNoticiaId } from './noticia.service';
+import {  actualizarNoticia, borrarNoticia, buscarNoticiaByTitulo, crearNoticia, listarNoticia, obtenerNoticiaId, obtenerNoticiasDeUsuario } from './noticia.service';
 import { verifyTokenMiddleware } from '../auth/auth.middleware';
 
 const noticiasRoutes = express.Router();
@@ -17,9 +17,17 @@ noticiasRoutes.get('/:id', obtenerNoticiaId);
 
 //endpoint borrar noticia
 
-noticiasRoutes.delete('/:id', borrarNoticia);
+noticiasRoutes.delete('/:id', verifyTokenMiddleware, borrarNoticia);
 
 //end point update noticia
 
-noticiasRoutes.patch('/:id', actualizarNoticia)
+noticiasRoutes.patch('/:id', verifyTokenMiddleware, actualizarNoticia)
+
+//end point para obtener todas las noticias del usuario logeado
+noticiasRoutes.get('/my/all', verifyTokenMiddleware, obtenerNoticiasDeUsuario);
+
+//end point para buscar una noticia por titulo
+noticiasRoutes.get('/titulo/buscar', buscarNoticiaByTitulo)
+
+
 export default noticiasRoutes;

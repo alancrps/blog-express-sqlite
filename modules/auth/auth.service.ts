@@ -45,7 +45,7 @@ export const login = async (req:Request, res: Response) => {
         }
 
         const token = generarTokenJWT(payload)
-
+        
         res.json({
             token: token
         })
