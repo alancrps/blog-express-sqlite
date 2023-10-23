@@ -1,5 +1,5 @@
 node_modules
 dist
 blog.db
-.env
 app.log
+.env

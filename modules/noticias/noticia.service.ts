@@ -4,7 +4,7 @@ import { Request, Response } from "express";
 import { dbcontext } from "../db/dbcontext";
 import { Noticia } from "./noticia.entity";
 import logger from "../logger/logger";
-import { Like } from "typeorm";
+import { ILike, Like, Not } from "typeorm";
 
 
 export const crearNoticia = async (req: Request, res: Response) => {
@@ -46,27 +46,53 @@ export const listarNoticia = async (req: Request, res: Response) => {
 	}
 };
 
-export const obtenerNoticiaId = async (req: Request, res: Response) => {
+// export const obtenerNoticiaId = async (req: Request, res: Response) => {
+// 	try {
+// 		const noticiaId = req.params.id;
+// 		const noticiaRepository = await dbcontext.getRepository(Noticia);
+// 		// const noticia = await noticiaRepository.findBy({ id: `${noticiaId}` });
+// 		const noticia = await noticiaRepository.findOne({
+// 			where: { id: noticiaId },
+// 			relations: ["comentarios"],
+// 		});
+// 		if (!noticia) {
+// 			throw new Error();
+// 		}
+// 		res.json({ data: noticia });
+// 	} catch (error) {
+// 		logger.error(
+// 			`No se puede obtener la noticia con id: ${req.params.id} desde la ip ${req.ip}`
+// 		);
+// 		res.status(404).json({ msg: "No se pudo encontrar la noticia" });
+// 	}
+// };
+export const obtenerNoticia = async ( req:Request, res: Response) => {
 	try {
-		const noticiaId = req.params.id;
+		const titulo = req.query.titulo?.toString();
+		const contenido = req.query.contenido?.toString();
+		const idNoticia = req.query.id?.toString();
 		const noticiaRepository = await dbcontext.getRepository(Noticia);
-		// const noticia = await noticiaRepository.findBy({ id: `${noticiaId}` });
-		const noticia = await noticiaRepository.findOne({
-			where: { id: noticiaId },
-			relations: ["comentarios"],
-		});
-		if (!noticia) {
+
+		const noticia = await noticiaRepository.find({
+			relations:{
+				comentarios: true
+			},
+			where:[
+				{titulo: ILike(`%${titulo || ''}%`)},
+				{contenido: ILike(`%${contenido || ''}%`)},
+				{id: idNoticia},
+			],
+		})
+		if(!noticia){
 			throw new Error();
 		}
-		res.json({ data: noticia });
 	} catch (error) {
 		logger.error(
-			`No se puede obtener la noticia con id: ${req.params.id} desde la ip ${req.ip}`
+			`No se puedo obtener la noticia con id ${req.params.id} desde el ip ${req.ip} `
 		);
-		res.status(404).json({ msg: "No se pudo encontrar la noticia" });
+		res.status(404).json({ msg: 'No se pudo encontrar la noticia' });
 	}
-};
-
+}
 export const borrarNoticia = async (req: Request, res: Response) => {
 	try {
 		const noticiaId = req.params.id;
